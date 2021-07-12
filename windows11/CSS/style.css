@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #d6e0f6;
+    padding-top: 5px;
+    z-index: 150;
+}
+.taskbar img{
+    height: 50px;
+}
+
+#right{
+    position: absolute;
+    right: 0;
+    height: 50px;
+}
+
+.tasks{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.tasks button{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    z-index: 155;
+}
+.tasks button:hover{
+    background: rgb(0, 81, 202);
+}
+
+.tasks img{
+    height: 50px;
+    margin: 0;
+}
+#msstore{
+    width:100%;
+    position: absolute;
+    bottom: -650px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#msstore img{
+    width:50%;
+    border-radius: 5px;
+}
+#start{
+    width:100%;
+    position: absolute;
+    bottom: -700px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#start img{
+    width:40%;
+    border-radius: 5px;
+}
+#search{
+    width:100%;
+    position: absolute;
+    bottom: -650px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#search img{
+    width:40%;
+    border-radius: 5px;
+}
+#edge{
+    width:100%;
+    position: absolute;
+    bottom: -650px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#edge img{
+    width:80%;
+    border-radius: 5px;
+}
+
+#widgets{
+    width:100%;
+    position: absolute;
+    bottom: 52px;
+    left:-800px;
+    transition: all 1s ease-in-out;
+}
+#widgets img{
+    width:35%;
+    border-radius: 5px;
+}
+
+#team{
+    width:100%;
+    position: absolute;
+    bottom: -800px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#team img{
+    width:25%;
+    border-radius: 6px;
+}
+
